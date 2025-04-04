@@ -13,6 +13,15 @@ Foundry consists of:
 
 https://book.getfoundry.sh/
 
+# About
+This is a crowd sourcing app
+
+## Getting started
+
+## Requirements
+
+## Quick start
+
 ## Usage
 
 ### Build
