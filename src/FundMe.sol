@@ -33,12 +33,7 @@ contract FundMe {
         s_funders.push(msg.sender);
     }
 
-    function getPriceFeed() public view returns (AggregatorV3Interface) {
-        return s_priceFeed;
-    }
-
     function getVersion() public view returns (uint256) {
-        AggregatorV3Interface priceFeed = AggregatorV3Interface(s_priceFeed);
         return s_priceFeed.version();
     }
 
